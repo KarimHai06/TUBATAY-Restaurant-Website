@@ -1,1 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TUBATAY FAMILY - Authentic traditional cuisine">
+    <meta property="og:title" content="TUBATAY FAMILY Restaurant">
+    <link rel="stylesheet" href="styles.css">
+    <title>TUBATAY FAMILY - Traditional Cuisine</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">TUBATAY</div>
+        <div class="logo-sub">FAMILY</div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-text">
+                <h1>Authentic Traditional Cuisine</h1>
+                <p>"Кип «Тубатай Вкусно»!" - Experience the rich flavors of our heritage</p>
+                <a href="#menu" class="btn">View Our Menu</a>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2>Our Specialties</h2>
+
+            <div class="menu-controls">
+                <button class="btn active" data-category="all">All</button>
+                <button class="btn" data-category="soup">Soups</button>
+                <button class="btn" data-category="salad">Salads</button>
+                <button class="btn" data-category="drink">Drinks</button>
+                <input type="text" class="search-box" placeholder="Search menu...">
+            </div>
+
+            <div class="menu-grid">
+                <div class="menu-item" data-category="soup" data-name="noodle soup">
+                    <img src="Noodle soup.jpg" alt="Noodle Soup">
+                    <div class="menu-item-content">
+                        <h3>Traditional Noodle Soup</h3>
+                        <p>"I'm tired of whom all?" - A hearty bowl of comfort with hand-pulled noodles in rich broth.
+                        </p>
+                        <div class="price">$12.99</div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="salad" data-name="salad with horse meat and pomegranate">
+                    <img src="Salad with horse meat and pomegranate.jpg" alt="Salad with Horse Meat and Pomegranate">
+                    <div class="menu-item-content">
+                        <h3>Horse Meat & Pomegranate Salad</h3>
+                        <p>"Кип «Тубатай Вкусно»!" - A unique combination of tender horse meat with fresh pomegranate
+                            seeds.</p>
+                        <div class="price">$15.99</div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="drink" data-name="tatar tea">
+                    <img src="Tatar tea.webp" alt="Tatar Tea">
+                    <div class="menu-item-content">
+                        <h3>Tatar Tea Ceremony</h3>
+                        <p>Traditional tea served with sweets.
+                        </p>
+                        <div class="price">$8.99</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2>Our Story</h2>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Three Generations of Culinary Tradition</h3>
+                    <p>TUBATAY FAMILY has been serving authentic traditional cuisine for over three generations. Our
+                        recipes have been passed down through our family, preserving the true flavors of our heritage.
+                    </p>
+                    <p>We take pride in using only the freshest ingredients and traditional cooking methods to bring you
+                        an unforgettable dining experience.</p>
+                    <p>"Кип «Тубатай Вкусно»!" - This is not just our motto, it's our promise to you.</p>
+                </div>
+
+                <div class="about-images">
+                    <div class="about-image main">
+                        <img src="Noodle soup.jpg" alt="Family preparing traditional dishes">
+                    </div>
+                    <div class="about-image">
+                        <img src="Salad with horse meat and pomegranate.jpg" alt="Fresh ingredients">
+                    </div>
+                    <div class="about-image">
+                        <img src="Tatar tea.webp" alt="Traditional cooking">
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">1950</div>
+                        <h3>Our Humble Beginnings</h3>
+                        <p>Grandmother Aisylu started cooking traditional dishes in her small home kitchen, serving
+                            neighbors and friends.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">1980</div>
+                        <h3>First Restaurant</h3>
+                        <p>The family opened their first small restaurant in the cultural district, introducing
+                            traditional flavors to the city.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2005</div>
+                        <h3>Modern Expansion</h3>
+                        <p>TUBATAY FAMILY moved to its current location, combining traditional recipes with modern
+                            dining experience.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Today</div>
+                        <h3>Continuing the Legacy</h3>
+                        <p>Now run by the third generation, we continue to honor our traditions while innovating for
+                            today's diners.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <p>Baki Urmanchi Street<br>Cultural District, Kazan<br>Phone: (888) 123-4567</p>
+                <p>Open daily from 11:00 AM to 10:00 PM</p>
+            </div>
+
+            <div class="contact-form">
+                <h3>Send us a message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <div class="error-message" id="nameError">Please enter your name</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <div class="error-message" id="emailError">Please enter a valid email</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <div class="error-message" id="subjectError">Please enter a subject</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <div class="error-message" id="messageError">Please enter your message</div>
+                    </div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                <div class="success-message" id="successMessage">
+                    Thank you for your message! We'll get back to you soon.
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo">TUBATAY</div>
+        <div class="copyright">
+            &copy; 2025 TUBATAY FAMILY. All rights reserved.
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
